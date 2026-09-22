@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
             Business_CardTheme {
                 Scaffold(
                     bottomBar = { Contact() },
-                    containerColor = Pink40
+                    containerColor = Color(0xFF2D3142)
                 ){
                     innerPadding ->
                         Intro(Modifier.padding(innerPadding))
@@ -73,7 +73,7 @@ fun Intro(modifier:Modifier=Modifier){
             text="Full Stack Developer",
             fontSize =20.sp,
             fontWeight = FontWeight.Bold ,
-            color= Color.White
+            color= Color(0xFFBFC0C0)
         )
     }
 }
@@ -97,7 +97,7 @@ fun Contact(modifier:Modifier=Modifier){
                     modifier = Modifier
                         .size(20.dp)
                         .padding(end = 8.dp),
-                    tint = Color.White,
+                    tint = Color(0xFFEF8354),
                     contentDescription = null
                 )
                 Text(
@@ -113,7 +113,7 @@ fun Contact(modifier:Modifier=Modifier){
                     modifier = Modifier
                         .size(20.dp)
                         .padding(end = 8.dp),
-                    tint = Color.White,
+                    tint = Color(0xFFEF8354),
 
 
                     )
@@ -130,7 +130,7 @@ fun Contact(modifier:Modifier=Modifier){
                     modifier = Modifier
                         .size(20.dp)
                         .padding(end = 8.dp),
-                    tint = Color.White,
+                    tint = Color(0xFFEF8354),
 
                     )
                 Text(
